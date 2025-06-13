@@ -25,10 +25,40 @@
 
             <div id="right-side">
                 <div id="text" >
-                    <h3>This is an online form to get a service. Fill in the form and wait for an answer.</h3>
+                    <p id="explanation">This is an online form to get a service. Fill in the form and wait for an answer.</p>
                 </div>
                 <div id="form"></div>
-                <div id="submit"></div>
+                    <div>
+                        <label for="first_name">First Name:</label>
+                        <input type="text" id="first_name" name="first_name">
+                    </div>
+                    <div>
+                        <label for="last_name">Last Name:</label>
+                        <input type="text" id="last_name" name="last_name">
+                    </div>
+                    <div>
+                        <label for="user_email">Email:</label>
+                        <input type="email" id="user_email" name="email" placeholder="youremail@example.com">
+                    </div>
+                    <div>
+                        <label for="phone_number">Phone Number:</label>
+                        <input type="tel" name="phone_number" id="phone_number">
+                    </div>
+
+                    <div>
+                        <label for="user_password">Password:</label>
+                        <input type="password" name="password" id="user_password">
+                    </div>
+                                        <div>
+                        <label for="confirm_password">Confirm Password:</label>
+                        <input type="password" name="confirm-password" id="confirm_password">
+                    </div>
+            
+                    
+                <div id="submit">
+                    <button>Create Account</button>
+                    <p>Already have an account?<a href="">Log in</a></p>
+                </div>
             </div>
         </div>
 
